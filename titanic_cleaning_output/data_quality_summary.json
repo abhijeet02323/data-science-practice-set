@@ -1,0 +1,108 @@
+{
+  "source_url": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv",
+  "shape_before": [
+    891,
+    15
+  ],
+  "duplicates_before": 107,
+  "missing_before": {
+    "survived": 0,
+    "pclass": 0,
+    "sex": 0,
+    "age": 177,
+    "sibsp": 0,
+    "parch": 0,
+    "fare": 0,
+    "embarked": 2,
+    "class": 0,
+    "who": 0,
+    "adult_male": 0,
+    "deck": 688,
+    "embark_town": 2,
+    "alive": 0,
+    "alone": 0
+  },
+  "audit": {
+    "rows_before": 891,
+    "columns_before": 15,
+    "exact_duplicates_removed": 107,
+    "invalid_sex_count": 0,
+    "invalid_embarked_count": 0,
+    "invalid_class_count": 0,
+    "invalid_who_count": 0,
+    "negative_age_count": 0,
+    "negative_fare_count": 0,
+    "negative_sibsp_count": 0,
+    "negative_parch_count": 0,
+    "iqr_outliers": {
+      "age": {
+        "lower_bound": -2.0,
+        "upper_bound": 62.0,
+        "count": 15
+      },
+      "fare": {
+        "lower_bound": -31.039025,
+        "upper_bound": 73.198375,
+        "count": 102
+      },
+      "sibsp": {
+        "lower_bound": -1.5,
+        "upper_bound": 2.5,
+        "count": 39
+      },
+      "parch": {
+        "lower_bound": -1.5,
+        "upper_bound": 2.5,
+        "count": 15
+      }
+    },
+    "rows_after": 784,
+    "columns_after": 21,
+    "missing_after": {
+      "survived": 0,
+      "pclass": 0,
+      "sex": 0,
+      "age": 0,
+      "sibsp": 0,
+      "parch": 0,
+      "fare": 0,
+      "embarked": 0,
+      "class": 0,
+      "who": 0,
+      "adult_male": 0,
+      "embark_town": 2,
+      "alive": 0,
+      "alone": 0,
+      "cabin_known": 0,
+      "age_outlier_flag": 0,
+      "fare_outlier_flag": 0,
+      "sibsp_outlier_flag": 0,
+      "parch_outlier_flag": 0,
+      "family_size": 0,
+      "is_alone_recomputed": 0
+    }
+  },
+  "dtypes_after": {
+    "survived": "int64",
+    "pclass": "int64",
+    "sex": "string",
+    "age": "float64",
+    "sibsp": "float64",
+    "parch": "float64",
+    "fare": "float64",
+    "embarked": "string",
+    "class": "string",
+    "who": "string",
+    "adult_male": "int8",
+    "embark_town": "string",
+    "alive": "string",
+    "alone": "int8",
+    "cabin_known": "int8",
+    "age_outlier_flag": "int8",
+    "fare_outlier_flag": "int8",
+    "sibsp_outlier_flag": "int8",
+    "parch_outlier_flag": "int8",
+    "family_size": "float64",
+    "is_alone_recomputed": "int8"
+  }
+}
