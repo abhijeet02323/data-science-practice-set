@@ -41,7 +41,7 @@ from sklearn.decomposition import PCA
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 SEED = 42
-OUT = Path("capstone_outputs")
+OUT = Path("survival_pred_titanic_output")
 FIG = OUT / "figures"
 FIG.mkdir(parents=True, exist_ok=True)
 DATA_URL = "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv"
