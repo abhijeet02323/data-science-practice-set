@@ -1,0 +1,8 @@
+5-fold CV metrics (mean +/- std)\naccuracy: 0.8020 +/- 0.0305\nprecision: 0.7319 +/- 0.0545\nrecall: 0.7768 +/- 0.0499\nf1: 0.7510 +/- 0.0306\nroc_auc: 0.8615 +/- 0.0218\n\nHeld-out test metrics\naccuracy: 0.8324\nprecision: 0.7746\nrecall: 0.7971\nf1: 0.7857\nroc_auc: 0.8697\n\nClassification report\n              precision    recall  f1-score   support
+
+           0       0.87      0.85      0.86       110
+           1       0.77      0.80      0.79        69
+
+    accuracy                           0.83       179
+   macro avg       0.82      0.83      0.82       179
+weighted avg       0.83      0.83      0.83       179
