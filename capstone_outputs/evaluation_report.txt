@@ -1,0 +1,9 @@
+SUPERVISED MODEL: Logistic Regression\nFive-fold cross-validation on training set (mean +/- std)\naccuracy: 0.7851 +/- 0.0388\nprecision: 0.7067 +/- 0.0588\nrecall: 0.7620 +/- 0.0252\nf1: 0.7323 +/- 0.0398\nroc_auc: 0.8558 +/- 0.0205\n\nHeld-out test metrics\naccuracy: 0.7933\nprecision: 0.7222\nrecall: 0.7536\nf1: 0.7376\nroc_auc: 0.8501\n\nClassification report\n              precision    recall  f1-score   support
+
+           0       0.84      0.82      0.83       110
+           1       0.72      0.75      0.74        69
+
+    accuracy                           0.79       179
+   macro avg       0.78      0.79      0.78       179
+weighted avg       0.80      0.79      0.79       179
+\nUNSUPERVISED MODEL: K-Means\nSilhouette score (k=3): 0.4101\nCluster profiles saved to cluster_profiles.csv\nNote: survival was not used to fit K-Means; cluster survival rates are descriptive only.\n
